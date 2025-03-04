@@ -24,4 +24,4 @@
       - "/etc/localtime:/etc/localtime:ro"
     networks:
       - name: "{{ nginx_docker_network }}"
-    purge_networks: true
+  networks_cli_compatible: yes
